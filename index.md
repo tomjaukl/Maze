@@ -1,8 +1,8 @@
 ---
-title: Moje prvni stranka
-description: uvidim
+title: Home
 layout: default
 ---
 
+# Hello
 
-# idk yet **bold** *italic*
+**Bold** and *italic* text works here.
