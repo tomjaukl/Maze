@@ -3,6 +3,9 @@ title: Home
 layout: default
 ---
 
-# Hello
+# A Cyberpunk Jekyll theme
 
-**Bold** and *italic* text works here.
+this page was made just because of the [tonic](tonic.hackclub.com), without it I couldnt make it 
+
+
+
