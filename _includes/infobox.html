@@ -1,12 +1,17 @@
-<link rel="stylesheet" href="{{ '/assets/cyberpunk.css' | relative_url }}">
 <div id="container">
     <div class="infoCard">
-        <div><img src="/assets/img/V.png" alt="Image 1"></div>
-            
-            {{ page.firstimage }}
+        <div><img src="{{page.firstImageLink}}" alt="Image 1"></div>
+           <div> {{ page.firstImageDescription }}</div>
+            <div class="buy">{% include button.html text="Learn More" %}</div>
     </div>
     <div class="infoCard">
-        <div><img src="/assets/img/silverhand.png" alt="Image 2"></div>
-            {{ page.secondimage }}
+        <div><img src="{{page.secondImageLink}}" alt="Image 2"></div>
+            <div>{{ page.secondImageDescription }}</div>
+            <div class="buy">{% include button.html text="Learn More" %}</div>
+    </div>
+    <div class="infoCard">
+        <div><img src="{{page.thirdImageLink}}" alt="Image 3"></div>
+            <div>{{ page.thirdImageDescription }}</div>
+            <div class="buy">{% include button.html text="Learn More" %}</div>
     </div>
 </div>

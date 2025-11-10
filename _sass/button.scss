@@ -1,0 +1,15 @@
+.btn {
+  background-color: yellow;
+  color: black;
+  font-size: 1.2rem;
+  padding: 0.5em 1em;
+  border-radius: 0.3em;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  color: yellow;
+  background-color: black;
+}
