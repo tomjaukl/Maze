@@ -1,5 +1,12 @@
 <link rel="stylesheet" href="{{ '/assets/cyberpunk.css' | relative_url }}">
-<div class="infobox">
-  {{ content }}
-  {{ page.description }}
+<div id="container">
+    <div class="infoCard">
+        <div><img src="/assets/img/V.png" alt="Image 1"></div>
+            
+            {{ page.firstimage }}
+    </div>
+    <div class="infoCard">
+        <div><img src="/assets/img/silverhand.png" alt="Image 2"></div>
+            {{ page.secondimage }}
+    </div>
 </div>

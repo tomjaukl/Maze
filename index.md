@@ -2,6 +2,8 @@
 title: Home
 layout: default
 description: I wanted to create such a theme because I didnt see it anywhere else, now I know why. It's really difficult to make easily readable page and at the same moment make it looks cyberpunkish
+firstimage: this is V
+secondimage: this is Silverhand
 ---
 
 # A Cyberpunk Jekyll theme

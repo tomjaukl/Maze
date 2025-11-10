@@ -1,6 +1,10 @@
 <link rel="stylesheet" href="{{ '/assets/cyberpunk.css' | relative_url }}">
 <head>
   <title>{{ page.title }} | {{ site.title }}</title>
+  <div class="infobox">
+  {{ content }}
+  {{ page.description }}
+  </div>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
