@@ -1,7 +1,24 @@
 footer {
-    background-color: #000000;
-    color: #00ff00;
-    text-align: center;
-    padding: .1em 0;
-    border-top: 2px solid #00ff00;
+    width: 100%;
+    background-color: var(--black);
+    height: 2.5rem;
+    padding: .5rem;
+    box-shadow: 0 0 10px var(--purple);
+    border: 2px solid var(--purple);
+    border-radius: 0 0 10px 10px;
+    font-size: .9rem;
+}
+#footerContainer{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: end;
+}
+footer > div{
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    height: 100%;
 }

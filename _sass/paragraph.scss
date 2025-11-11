@@ -1,0 +1,28 @@
+.paragraphBox {
+    background-color: var(--black);
+    box-shadow: 0 0 10px var(--purple);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: .6rem;
+    max-width: 800px;
+}
+.paragraphBox h4 {
+    margin: 0 0 0.5rem 0;
+    color: var(--lightBlue);
+    text-shadow: 0 0 5px var(--darkBlue);
+    text-align: center;
+}
+.paragraphBox p {
+    margin: 0;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+@media (max-width: 720px) {
+    .paragraphBox {
+        padding: .2rem;
+    }
+    .paragraphBox p {
+        font-size: 1rem;
+    }
+}

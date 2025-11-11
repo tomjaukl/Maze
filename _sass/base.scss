@@ -1,3 +1,10 @@
+:root {
+  --black: #091833;
+  --darkPurple: #711c91;
+  --purple: #ea00d9;
+  --lightBlue: #0abdc6;
+  --blue: #133e7c;
+}
 @font-face {
   font-family: 'CyberFont';
   src: url('/assets/fonts/Cyber.otf') format('opentype');
@@ -5,26 +12,56 @@
   font-style: normal;
 }
 body, html {
-  background-color: #ffffff;
+  // background-color: #ffffff;
   font-family: CyberFont;
   font-size: 1.5rem;
-  margin: auto;
-  color: #000000;
-  background-image: url("img/background.jpg");
+  background-image: linear-gradient(
+    to bottom,
+    #1b2e75, 
+    #1d47a1  
+  );
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  text-align: center;
 }
-header{
-  background-color: rgba(0, 0, 0, 0.7);
-  color: #00ff00;
-  border: 2px solid #00ff00;
-  padding: 20px;
-  margin: 50px auto;
-  width: 80%;
-  box-shadow: 0 0 10px #00ff00;
+main{
+  max-width: 1920px; 
+  margin: auto; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
-a{
-  color: #e5ff00;
+.togetherContainer{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--darkPurple);
+  border-radius: 3px;
+}
+@media (max-width: 1500px) {
+  .togetherContainer{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 720px){
+    .stick{
+        visibility: hidden;
+    }
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 30px;
+    }
 }

@@ -1,8 +1,27 @@
 <link rel="stylesheet" href="{{ '/assets/cyberpunk.css' | relative_url }}">
 <html>
+  {% include head.html %}
   <body>
-        {% include head.html %}
-        {% include infobox.html %}
-        {% include footer.html %}
+    {% include header.html %}
+    <main>
+      <div class="togetherContainer">
+        {% include paragraph.html 
+          headline=page.firstParagraphHeadline
+          content=page.firstParagraphContent
+        %} 
+        {% include imageText.html 
+          imageSrc=page.firstImageLink
+          headline=page.firstImageHeadline
+          content=page.firstImageContent
+        %}
+      </div>
+      {% include fullWidthText.html 
+        headline=page.fullWidthHeadline
+        content=page.fullWidthContent
+      %}
+      {% include footer.html 
+        yapping=page.footerYapping
+      %}
+    </main>
   </body>
 </html>
