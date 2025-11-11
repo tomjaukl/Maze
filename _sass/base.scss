@@ -7,7 +7,7 @@
 }
 @font-face {
   font-family: 'CyberFont';
-  src: url('/assets/fonts/Cyber.otf') format('opentype');
+  src: url("{{ site.baseurl }}/assets/fonts/Cyber.otf") format('opentype');
   font-weight: normal;
   font-style: normal;
 }
