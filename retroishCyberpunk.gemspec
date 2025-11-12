@@ -3,7 +3,7 @@
 Gem::Specification.new do |spec|
   # --- Identity ---
   spec.name          = "retroishCyberpunk"
-  spec.version       = "0.1.0" # Start with a small version number
+  spec.version       = "0.1.1" # Start with a small version number
   spec.authors       = ["TJ"]
   spec.email         = ["tomjaukl@gmail.com"]
   spec.summary       = "A dark, neon-soaked, and retro-futuristic Cyberpunk theme for Jekyll."
